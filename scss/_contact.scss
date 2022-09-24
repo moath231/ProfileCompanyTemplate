@@ -1,0 +1,37 @@
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+
+  .contact-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+    label{
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--sec-color);
+      letter-spacing: -2;
+      margin-bottom: 15px;
+    }
+    .link{
+      display: block;
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--main-color);
+      text-decoration: none;
+    }
+    .social{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 16px;
+      i{
+        margin-left: 10px;
+        color: var(--sec-color);
+      }
+    }
+
+  }
+}
